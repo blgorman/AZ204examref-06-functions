@@ -13,7 +13,7 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '6.0.x' # set this to the dotnet version to use
   AZURE_FA_NAME: 'az204examcramwld3wv4ntbyxq' # Put your app name here
-  AZURE_FA_SLOT: 'staging' # staging by default but you could put it in Production if you want 
+  AZURE_FA_SLOT: 'testing' # staging by default but you could put it in Production if you want 
   AZURE_PUBLISH_PROFILE_SECRET: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C1D422DC9842400EB6CBCA1E997812FE }} #Make sure you create a secret with the publish profile
 
 jobs:
